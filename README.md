@@ -7,5 +7,36 @@ Những bài học kinh nghiệm này được đúc kết từ các nhà phát 
 
 [Sử dụng thư viện Jackson để parse JSON data ]()
 
-#Hướng dẫn sử dụng Gradle và cấu trúc một project
-sadfasdfasdf
+[Không nên dùng HTTP client, thay thế bằng Volley or OkHttp libraries]()
+
+[Tránh Guava và chỉ sử dụng một vài libraries có giới hạn 65k method]()
+
+[Sử dụng Fragments để Hiển thị một UI screen]()
+
+[Sử dụng Activities chỉ để quản lý Fragments]()
+
+[Các Layout XMLs cũng là code, vậy nên tổ chức code tốt ]()
+
+[Sử dụng styles để tránh trùng lặp các thuộc tính trong các layout XMLs]()
+
+[Sử dụng nhiều style files tránh một file duy nhất]()
+
+[Giữ cho file colors.xml ngắn gọn và xúc tích, chỉ cần định nghĩa bảng màu]()
+
+[Cũng giữ cho dimens.xml xúc tích, define generic constants]()
+
+[Không làm quá nhiều tầng phân cấp trong ViewGroups]()
+
+[Tránh tiến trình client-side đối với WebViews, và cẩn thận không kiểm soát được tiến trình]()
+
+[Dùng Robolectric cho unit tests, Robotium đối với connected (UI) tests]()
+
+[Sử dụng Genymotion để tạo thiết bị ảo]()
+
+[Luôn sử dụng ProGuard hoặc DexGuard]()
+
+[Sử dụng SharedPreferences cho simple persistence, otherwise ContentProviders]()
+
+[Sử dụng Stetho để debug app]()
+
+#Xây dựng hệ thống
